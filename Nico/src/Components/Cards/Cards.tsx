@@ -1,4 +1,4 @@
-import React from "react";
+
 import "./cards.css";
 interface CardProps {
   title?: string;
@@ -16,8 +16,7 @@ export default function Cards({
   description,
   img,
   title2,
-  description2,
-  img2,
+
   onClose,
   handleDivClick
 }: CardProps) {

@@ -87,16 +87,16 @@ export default function ModalJs({ onClose }: ModalProps) {
           onClick={(e) => e.stopPropagation()}
         >
           {modalOpen && (
-          <Cards
-          img={Sun}
+            <Cards
+              img={Sun}
               title="˚୨Animo bebe ୧⋆｡"
-                description="Tú pudiste, puedes, y podrás siempre! Nunca dudes de eso, porque yo sé que siempre podrás! Y recuerda que lo estás haciendo genial, muy genial, te prometo que todo ese esfuerzo que estás haciendo tendrá una recompensa muy buena! Yo siempre voy a estar para ti, en los malos y buenos momentos.
+              description="Tú pudiste, puedes, y podrás siempre! Nunca dudes de eso, porque yo sé que siempre podrás! Y recuerda que lo estás haciendo genial, muy genial, te prometo que todo ese esfuerzo que estás haciendo tendrá una recompensa muy buena! Yo siempre voy a estar para ti, en los malos y buenos momentos.
                 
         "
-                title2="⤷ Presioname"
-                onClose={closeModal}
-                handleDivClick={() => handleDivClick(2)}
-              />
+              title2="⤷ Presioname"
+              onClose={closeModal}
+              handleDivClick={() => handleDivClick(2)}
+            />
           )}
         </div>
 
@@ -127,7 +127,6 @@ export default function ModalJs({ onClose }: ModalProps) {
               img={Bear}
               title="Para amar ࿐࿔"
               description="            Entre el amor y la desesperación te encuentras tu, entre el ser y no ser te encuentras tú, entre mi mente y mi corazón apareces tú; y es que no se trata de que vengas a mi pensamiento, lo cierto es que nunca te vas de el, eres recurrente, cómo algo intrínseco de mi, cómo mi sombra o respiración. Requiero de que estés aquí para vivir, para soñar."
-            
               title2="⤷ Presioname"
               onClose={closeModal}
               handleDivClick={() => handleDivClick(4)}
@@ -156,9 +155,9 @@ export default function ModalJs({ onClose }: ModalProps) {
         >
           {modalOpen5 && (
             <Cards
-            title="₍ ᐢ. ̫ .ᐢ ₎"
-            description="Everything is peaceful and lovely with you around"
-            title2="⤷ Presioname"
+              title="₍ ᐢ. ̫ .ᐢ ₎"
+              description="Everything is peaceful and lovely with you around"
+              title2="⤷ Presioname"
               onClose={closeModal}
               handleDivClick={() => handleDivClick(6)}
             />
@@ -169,14 +168,14 @@ export default function ModalJs({ onClose }: ModalProps) {
           onClick={(e) => e.stopPropagation()}
         >
           {modalOpen6 && (
-         <Cards
-         img={Cloud}
-         title="Solo una cosa le pido al cielo ₊⊹"
-         description="Y es que tú y yo podamos ser y estar: en tiempo y lugar, en presente y en futuro, en mente y cuerpo, pero sobre todo, estar entre nuestros brazos para concretar este hermoso sueño, uno que se hizo realidad el día que nos conocimos."
-         title2="⤷ Presioname"
-         onClose={closeModal}
-         handleDivClick={() => handleDivClick(7)}
-         />
+            <Cards
+              img={Cloud}
+              title="Solo una cosa le pido al cielo ₊⊹"
+              description="Y es que tú y yo podamos ser y estar: en tiempo y lugar, en presente y en futuro, en mente y cuerpo, pero sobre todo, estar entre nuestros brazos para concretar este hermoso sueño, uno que se hizo realidad el día que nos conocimos."
+              title2="⤷ Presioname"
+              onClose={closeModal}
+              handleDivClick={() => handleDivClick(7)}
+            />
           )}
         </div>
         <div
@@ -186,11 +185,13 @@ export default function ModalJs({ onClose }: ModalProps) {
           {modalOpen7 && (
             <Cards
               title="₍ᐢ. .ᐢ₎"
-              description="No quiero un fin contigo, sino una infinidad."  
-              title2="⤷ Gracias por leer <3"            onClose={closeModal}
+              description="No quiero un fin contigo, sino una infinidad."
+              title2="⤷ Gracias por leer <3"
+              onClose={closeModal}
               handleDivClick={() => handleDivClick(8)}
             />
           )}
+          {modalOpen8}
         </div>
       </div>
     </>
